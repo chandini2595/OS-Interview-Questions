@@ -198,3 +198,5 @@ Typical contents:
 - fork() vs exec()
 - Blocking vs Non-Blocking I/O
 - Synchronous vs Asynchronous I/O
+
+User mode vs Kernel mode
