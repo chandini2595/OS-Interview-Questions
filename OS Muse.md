@@ -3,7 +3,7 @@
 
 ## UNIT I — Introduction, Processes, Threads
 
-1.What is an operating system, and what are its two main goals?
+1. What is an operating system, and what are its two main goals?
 
 2. What does the OS do as a resource manager vs as an extended/virtual machine?
   
