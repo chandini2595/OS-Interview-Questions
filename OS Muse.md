@@ -1,50 +1,93 @@
-OS Interview Questions — Syllabus Units I–V
-For: Chandini — Supermicro Switch Design (29680), Nov 17, 2026
-Questions only, in syllabus order. Covers every topic in Units I–V as supplied Nov 6, 2026.
+#OS Interview Questions — Syllabus Units I–V
+
+
 UNIT I — Introduction, Processes, Threads
-Introduction to OS
-What is an operating system, and what are its two main goals?
-What does the OS do as a resource manager vs as an extended/virtual machine?
-What are the generations of operating systems, and what changed in each?
-What are the types of operating systems — batch, multiprogrammed, multitasking/time-sharing, real-time, distributed, embedded?
-Batch vs time-sharing OS — what is the difference in response time and CPU use?
-Hard real-time vs soft real-time OS — give an example of each.
-What are the main OS services provided to programs and to users?
-What is a system call, and how is it different from a library/API call?
-Name the types/categories of system calls with one example each.
-Walk through what happens step-by-step when a program makes a system call.
-What is a layered OS structure, and what are its advantages and disadvantages?
-What is a monolithic kernel, and what are its advantages and disadvantages?
-What is a microkernel, and how does it differ from a monolithic kernel?
-Layered vs monolithic vs microkernel — compare performance, reliability, and modularity.
-What is a virtual machine, and what is a hypervisor?
-Type 1 vs Type 2 hypervisor — what is the difference?
-What are the benefits and drawbacks of virtual machines?
-UNIX case study: what are the key design features, structure, and philosophy of UNIX?
-Windows case study: what are the key design features and structure of Windows?
-UNIX vs Windows — compare kernel approach, file system, and process/thread model at a concept level.
+
+1.What is an operating system, and what are its two main goals?
+
+2. What does the OS do as a resource manager vs as an extended/virtual machine?
+  
+3. What are the generations of operating systems, and what changed in each?
+   
+4. What are the types of operating systems — batch, multiprogrammed, multitasking/time-sharing, real-time, distributed, embedded?
+   
+5. Batch vs time-sharing OS — what is the difference in response time and CPU use?
+   
+6. Hard real-time vs soft real-time OS — give an example of each.
+    
+7. What are the main OS services provided to programs and to users?
+    
+8. What is a system call, and how is it different from a library/API call?
+    
+9. Name the types/categories of system calls with one example each.
+
+10. Walk through what happens step-by-step when a program makes a system call.
+
+11. What is a layered OS structure, and what are its advantages and disadvantages?
+
+12. What is a monolithic kernel, and what are its advantages and disadvantages?
+
+13. What is a microkernel, and how does it differ from a monolithic kernel?
+
+14. Layered vs monolithic vs microkernel — compare performance, reliability, and modularity.
+
+15. What is a virtual machine, and what is a hypervisor?
+
+16. Type 1 vs Type 2 hypervisor — what is the difference?
+
+17. hat are the benefits and drawbacks of virtual machines?
+
+18. UNIX case study: what are the key design features, structure, and philosophy of UNIX?
+
+19. Windows case study: what are the key design features and structure of Windows?
+
+20. UNIX vs Windows — compare kernel approach, file system, and process/thread model at a concept level.
+
 Processes
-What is a process, and how is it different from a program?
-What is the relationship between parent and child processes?
-How are processes created and terminated in UNIX (fork, exec, wait, exit)?
-What are the different states of a process?
-Draw/explain process state transitions — what event moves a process from Ready to Running, Running to Waiting, Waiting to Ready, Running to Ready?
-What is a Process Control Block (PCB), and what information does it contain?
-What is context switching, and what are its steps?
-Why is context switching pure overhead, and what determines its cost?
-Process vs thread context switch — why is one cheaper?
-What is a zombie process and what is an orphan process?
+
+1. What is a process, and how is it different from a program?
+
+2. What is the relationship between parent and child processes?
+
+3. How are processes created and terminated in UNIX (fork, exec, wait, exit)?
+
+4. What are the different states of a process?
+
+5. Draw/explain process state transitions — what event moves a process from Ready to Running, Running to Waiting, Waiting to Ready, Running to Ready?
+
+6. What is a Process Control Block (PCB), and what information does it contain?
+
+7. What is context switching, and what are its steps?
+
+8. Why is context switching pure overhead, and what determines its cost?
+
+9. Process vs thread context switch — why is one cheaper?
+
+10. What is a zombie process and what is an orphan process?
+
 Threads
-What is a thread, and why were threads introduced?
-What are the states of a thread?
-What do threads of the same process share, and what is private to each thread?
-What are the benefits of threads over processes?
-What are the types of threads — user-level threads vs kernel-level threads?
-User-level vs kernel-level threads — compare blocking, switching cost, and multicore use.
-What is multithreading, and what are the multithreading models (many-to-one, one-to-one, many-to-many)?
-What are the problems/issues with threaded programs?
-Single-threaded vs multithreaded process — when would you choose each?
-If one thread crashes/segfaults, what happens to the whole process, and why?
+
+1. What is a thread, and why were threads introduced?
+
+2. What are the states of a thread?
+
+3. What do threads of the same process share, and what is private to each thread?
+
+4. What are the benefits of threads over processes?
+
+5. What are the types of threads — user-level threads vs kernel-level threads?
+
+6. User-level vs kernel-level threads — compare blocking, switching cost, and multicore use.
+
+7. What is multithreading, and what are the multithreading models (many-to-one, one-to-one, many-to-many)?
+
+8. What are the problems/issues with threaded programs?
+
+9. Single-threaded vs multithreaded process — when would you choose each?
+
+10. If one thread crashes/segfaults, what happens to the whole process, and why?
+
+
 UNIT II — Process Scheduling & IPC
 Process Scheduling
 What is process scheduling, and what are its objectives/foundation?
