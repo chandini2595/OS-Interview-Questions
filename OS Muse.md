@@ -1,7 +1,7 @@
-#OS Interview Questions — Syllabus Units I–V
+# OS Interview Questions — Syllabus Units I–V
 
 
-UNIT I — Introduction, Processes, Threads
+## UNIT I — Introduction, Processes, Threads
 
 1.What is an operating system, and what are its two main goals?
 
