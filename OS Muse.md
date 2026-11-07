@@ -3,13 +3,13 @@
 
 ## UNIT I — Introduction, Processes, Threads
 
-1. What is an operating system, and what are its two main goals?
+1. What is an operating system, and what are its two main goals?  - interface between applications/users and computer hardware. Convenience and Resource management
 
-2. What does the OS do as a resource manager vs as an extended/virtual machine?
+2. What does the OS do as a resource manager vs as an extended/virtual machine? - OS manages and allocates CPU, memory, storage, and I/O devices among programs. OS hides complex hardware details and provides simple interfaces for programs to use the hardware.
   
-3. What are the generations of operating systems, and what changed in each?
+3. What are the generations of operating systems, and what changed in each? - No OS --> Batch --> timesharing systems --> PC - Linux, Windows --> VMs
    
-4. What are the types of operating systems — batch, multiprogrammed, multitasking/time-sharing, real-time, distributed, embedded?
+4. What are the types of operating systems — batch, multiprogrammed, time-sharing, real-time, distributed?
    
 5. Batch vs time-sharing OS — what is the difference in response time and CPU use?
    
@@ -132,6 +132,7 @@ In Readers & Writers, how can writers starve, and how can readers starve?
 What is the Dining Philosophers problem, and why is it a deadlock/starvation example?
 How do you prevent deadlock in Dining Philosophers?
 What is a pipe, a message queue, a socket, and a signal — one-line use case for each IPC mechanism?
+
 UNIT III — Memory Management & Virtual Memory
 Memory Management
 What is memory management, and why does the OS need it?
@@ -171,6 +172,7 @@ Not Recently Used (NRU) page replacement: how do the R and M bits classify pages
 Least Recently Used (LRU) page replacement: how does it work, calculate page faults for a reference string, and how is it implemented/approximated?
 FIFO vs LRU vs Optimal — compare page faults on the same reference string with 3 frames.
 Why does LRU usually perform better than FIFO in practice?
+
 UNIT IV — File Management & I/O
 File Management
 What is a file, and what are file attributes?
@@ -204,6 +206,8 @@ What is a device driver, and what is its role?
 What is device-independent I/O software, and what functions does it provide?
 Device driver vs device-independent I/O software vs device controller — who does what?
 What are buffering, caching, and spooling in I/O — one example each?
+
+
 UNIT V — Deadlocks & Disk Management
 Deadlocks
 What is deadlock? Explain with a 2-process, 2-resource example.
