@@ -35,7 +35,7 @@
 
 16. Type 1 vs Type 2 hypervisor — what is the difference?
 
-17. hat are the benefits and drawbacks of virtual machines?
+17. What are the benefits and drawbacks of virtual machines?
 
 18. UNIX case study: what are the key design features, structure, and philosophy of UNIX?
 
